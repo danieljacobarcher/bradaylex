@@ -1,0 +1,81 @@
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+    .slidesjs-previous {background-image: url('../images/arrow-slide_prev@2x.png');}
+    .slidesjs-next {background-image: url('../images/arrow-slide_next@2x.png');}
+    .slidesjs-pagination-item a {background-image: url('../images/pagination@2x.png');}
+    .slidesjs-pagination-item a.active, .slidesjs-pagination-item a:hover {background-image: url('../images/pagination-hover@2x.png');}
+    #top_facebook {background-image: url('../images/facebook2@2x.png');}
+    #top_facebook:hover {background-image: url('../images/facebook-hover2@2x.png');}
+    #top_twitter {background-image: url('../images/twitter2@2x.png');}
+    #top_mail {background-image: url('../images/mail@2x.png');}
+    #display_girls_2, #display_book_2, #display_sponsors_2 {background-image: url('../images/2colonnes@2x.png');}
+    #display_girls_3, #display_book_3, #display_sponsors_4 {background-image: url('../images/quadrillage@2x.png');}
+    #nav_left_showcase {background-image: url('../images/arrow_left@2x.png');}
+	#nav_right_showcase {background-image: url('../images/arrow_right@2x.png');}
+	.pagination_showcase {background-image: url('../images/pagination@2x.png');}
+	.pagination_showcase.current-pagination {background-image: url('../images/pagination-hover@2x.png');}
+	.likes {background-image: url('../images/like@2x.png');}
+	.likes.pink {background-image: url('../images/like-hover@2x.png');}
+	.nb_comments {background-image: url('../images/comment@2x.png');}
+	.nb_comments.blue, .img_comment {background-image: url('../images/comment-hover@2x.png');}
+	.img_recent_posts {background-image: url('../images/arrow2@2x.png');}
+	#recent_posts p:hover + .img_recent_posts, #archives p:hover + .img_recent_posts, .img_recent_posts:hover  {background-image: url('../images/arrow2-hover@2x.png');}
+	#contact_social_twitter {background-image: url('../images/twitter@2x.png');}
+	#contact_social_twitter:hover {background-image: url('../images/twitter-hover@2x.png');}
+	#contact_social_facebook {background-image: url('../images/facebook@2x.png');}
+	#contact_social_facebook:hover {background-image: url('../images/facebook-hover@2x.png');}
+	#contact_social_dribbble {background-image: url('../images/dribbble@2x.png');}
+	#contact_social_dribbble:hover {background-image: url('../images/dribbble-hover@2x.png');}
+	#contact_social_skype {background-image: url('../images/skype@2x.png');}
+	#contact_social_skype:hover {background-image: url('../images/skype-hover@2x.png');}
+	#contact_social_instagram {background-image: url('../images/instagram@2x.png');}
+	#contact_social_instagram:hover {background-image: url('../images/instagram-hover@2x.png');}
+	
+#member1 {
+	background-image: url('../images/girls/1@2x.jpg');
+}
+#member2 {
+	background-image: url('../images/girls/2@2x.jpg');
+}
+#member3 {
+	background-image: url('../images/girls/3@2x.jpg');
+}
+#member4 {
+	background-image: url('../images/girls/4@2x.jpg');
+}
+#member5 {
+	background-image: url('../images/girls/5@2x.jpg');
+}
+#member6 {
+	background-image: url('../images/girls/6@2x.jpg');
+}
+#member7 {
+	background-image: url('../images/girls/7@2x.jpg');
+}
+#member8 {
+	background-image: url('../images/girls/8@2x.jpg');
+}
+#member9 {
+	background-image: url('../images/girls/9@2x.jpg');
+}
+#member10 {
+	background-image: url('../images/girls/10@2x.jpg');
+}
+#member11 {
+	background-image: url('../images/girls/11@2x.jpg');
+}
+#member12 {
+	background-image: url('../images/girls/12@2x.jpg');
+}
+#member13 {
+	background-image: url('../images/girls/13@2x.jpg');
+}
+
+	@media handheld and (max-width: 650px), screen and (max-width: 650px), screen and (max-device-width: 650px)  {
+
+	.nb_comments {background-image: url('images/phones/comment@2x.png');}
+	.nb_comments.blue {background-image: url('images/phones/comment-hover@2x.png');}
+	.likes {background-image: url('images/phones/hearth@2x.png');}
+	.likes.pink {background-image: url('images/phones/hearth-hover@2x.png');}
+
+	}
+}

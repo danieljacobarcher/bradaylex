@@ -1,0 +1,116 @@
+nav, #menu_phone li, #contact_team p, #contact_text p, #contact {
+	background-color: #52cfe3;
+}
+
+.title {
+	color: #6d7fa9;
+}
+
+.sub_title, .thumb span {
+	color: #52cfe3;
+}
+
+.button_team.active_team, #effect_work .current_effect_work {
+	color: #fff;
+	background-color: #6d7fa9;
+	border-color: #6d7fa9;
+}
+
+.da-slider {
+	background-color: #6d7fa9;
+}
+
+.button_products.active_product {
+	color: #fff;
+	background-color: #6d7fa9;
+	border-color: #6d7fa9;
+}
+
+#container_description_showcase, .og-expander, .superbox-show {
+	background-color: #9eacb9;
+}
+h1, h2, h3 {
+	color: #3f5765;
+}
+
+#description_showcase {
+	color: #7d8993;
+}
+
+.check_out_showcase a, .check_out_work a, .og-details a {
+	background-color: #2c3d47;
+}
+
+#view_all_posts {
+	background-color: #6d7fa9;
+}
+
+.services_doc {
+	background-image: url('../images/blue/doc.png');
+}
+.services_ps {
+	background-image: url('../images/blue/ps.png');
+}
+.services_video {
+	background-image: url('../images/blue/video.png');
+}
+.services_picture {
+	background-image: url('../images/blue/picture.png');
+}
+.services_music {
+	background-image: url('../images/blue/music.png');
+}
+
+.icon.blog_doc2 {
+	background-image: url('../images/blue/doc2.png');
+}
+.icon.blog_pictures2 {
+	background-image: url('../images/blue/pictures2.png');
+}
+.icon.blog_movie2 {
+	background-image: url('../images/blue/movie2.png');
+}
+.icon.blog_audio {
+	background-image: url('../images/blue/audio.png');
+}
+
+@media handheld and (max-width: 769px), screen and (max-width: 769px), screen and (max-device-width: 769px)  {
+
+#top {
+	background-color: #52cfe3;
+}
+
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+
+.services_doc {
+	background-image: url('../images/blue/doc@2x.png');
+}
+.services_ps {
+	background-image: url('../images/blue/ps@2x.png');
+}
+.services_video {
+	background-image: url('../images/blue/video@2x.png');
+}
+.services_picture {
+	background-image: url('../images/blue/picture@2x.png');
+}
+.services_music {
+	background-image: url('../images/blue/music@2x.png');
+}
+
+.icon.blog_doc2 {
+	background-image: url('../images/blue/doc2@2x.png');
+}
+.icon.blog_pictures2 {
+	background-image: url('../images/blue/pictures2@2x.png');
+}
+.icon.blog_movie2 {
+	background-image: url('../images/blue/movie2@2x.png');
+}
+.icon.blog_audio {
+	background-image: url('../images/blue/audio@2x.png');
+}
+
+}

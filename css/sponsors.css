@@ -1,0 +1,437 @@
+/*	-----------------------------------------------------   /*
+	EXPAND EFFECT 
+		- MAIN STYLE
+/*	-----------------------------------------------------   */
+
+div.presentingsponsor {
+	text-align:center;
+	margin-bottom: 40px;
+}
+div.pinksponsor {
+	margin: 0 0 40px 0;
+	padding: 0;
+	text-align: center;
+}
+div#platinumsponsor {
+	margin: 0 0 40px 0;
+}
+#platinumsponsor ul {
+	text-align: center;
+	margin: 10px 0;
+}
+#platinumsponsor ul li {
+	display:inline;
+	text-align: center;
+	margin: 0 30px;
+}
+#platinumsponsor img {
+	height:70px;
+}
+div#silversponsor {
+	margin: 0 0 40px 0;
+}
+#silversponsor ul {
+	text-align: center;
+	margin: 10px 0;
+}
+#silversponsor ul li {
+	display:inline;
+	text-align: center;
+	margin: 0 30px;
+}
+#silversponsor img {
+	height:70px;
+}
+
+div.plasticsurgeons {
+	column-count:2;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+}
+.plasticsurgeons a {
+	color:#737373;
+	font-size: 12px;
+}
+.plasticsurgeons a:link, .plasticsurgeons a:visited {
+	color:#f38ab4;
+}
+.plasticsurgeons a:hover {
+	color:#f54088;
+}
+
+/* SuperBox */
+.superbox {
+	display: none;
+	margin-top: 30px;
+}
+
+.superbox-list {
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	width:24%;
+	height: 100%;
+	margin: 0.5%;
+	position: relative;
+}
+.superbox-list.dis-2 {
+	width: 49%;
+}
+.superbox-img {
+	max-width:100%;
+	width:100%;
+	cursor:pointer;
+}
+.superbox-show {
+	text-align:center;
+	position:relative;
+	width:90%;
+    float:left;
+	padding:5%;
+	display:none;
+}
+.superbox-current-img {
+	max-width:100%;
+}
+
+.superbox-title {
+	margin-top: 50px;
+	text-align: left;
+}
+.superbox-title h2 {
+	color: #fff;
+}
+
+.hover-expand-sponsors {
+	width: 100%;height: 101%;
+	position: absolute;top: 0;left: 0;
+	background-image: url('../images/hover-sponsors.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 0;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+
+.hover-expand-eye {
+	width: 50%;height: 50%;
+	position: absolute;top: 0;left: 0;
+	padding-top: 50%;
+	padding-left: 50%;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+.hover-expand-eye img {
+	width: 70px;height: 70px;
+	margin-top: -35px;
+	margin-left: -35px;
+	display: none;
+	cursor: pointer;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+
+.superbox-list:hover .hover-expand-sponsors {
+	opacity: 1;
+}
+.superbox-list:hover .hover-expand-eye img {
+	display: block;
+	opacity: 0.5;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+.superbox-list .hover-expand-eye img:hover {
+	opacity: 1;
+	width: 78px;height: 78px;
+	margin-top: -39px;
+	margin-left: -39px;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+
+
+.superbox-float {
+	float:left;
+}
+.superbox-close {
+	opacity:0.7;
+	cursor:pointer;
+	position:absolute;
+	top:25px;
+	right:25px;
+	background:url(../images/close.gif) no-repeat center center;
+	width:35px;
+	height:35px;
+}
+.superbox-close:hover {
+	opacity:1;
+}
+
+@media only screen and (max-width: 768px) {
+	.superbox-list {
+		width:49%;
+	}
+	.superbox-list.dis-2 {
+		width: 99%;
+	}
+	.superbox-close {
+	background:url(../images/phones/close.png) no-repeat center center;
+}
+}
+
+/*	-----------------------------------------------------   /*
+	 OVERLAY EFFECT
+		- MAIN STYLE
+/*	-----------------------------------------------------   */
+
+.rb-grid {
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+	height: 100%;
+	padding: 100px 0 100px 0;
+}
+
+.rb-grid li {
+	width: 24%;
+	height: 0;
+	padding-top: 25%;
+	margin: 0.5%;
+	text-align: left;
+	color: #fff;
+	display: block;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	background-position: center center;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+.rb-grid li:hover {
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+
+.rb-grid li.rb-span-2 {
+	width: 49%;
+	padding-top: 50%;	
+}
+
+.rb-grid li.rb-span-4 {
+	width: 99%;
+}
+
+.rb-grid li h3 {
+	font-size: 2.6em;
+	font-weight: 100;
+}
+
+.rb-grid li[class^="icon-"]:before,
+.rb-grid li[class*=" icon-"]:before {
+	font-size: 10em;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	line-height: 3;
+	opacity: 0.4;
+	text-align: right;
+	pointer-events: none;
+}
+
+.hover-sponsors {
+	width: 100%;height: 100%;
+	position: absolute;top: 0;left: 0;
+	background-image: url('../images/hover-sponsors.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	opacity: 0;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+
+.hover-sponsors-eye {
+	width: 50%;height: 50%;
+	position: absolute;top: 0;left: 0;
+	padding-top: 50%;
+	padding-left: 50%;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+.hover-sponsors-eye img {
+	width: 70px;height: 70px;
+	margin-top: -35px;
+	margin-left: -35px;
+	display: none;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+
+.rb-grid li[class^="icon-"]:hover .hover-sponsors {
+	opacity: 1;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+.rb-grid li[class^="icon-"]:hover .hover-sponsors-eye img {
+	display: block;
+	opacity: 0.5;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+.rb-grid li[class^="icon-"] .hover-sponsors-eye img:hover {
+	opacity: 1;
+	width: 78px;height: 78px;
+	margin-top: -39px;
+	margin-left: -39px;
+	-webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -ms-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+
+.rb-overlay {
+	opacity: 0;
+	position: fixed;
+	top: 0;left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	z-index: -1;
+	pointer-events: none;
+	cursor: default;
+}
+
+.rb-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 2em;
+	height: 2em;
+	text-indent: -9000px;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.rb-close::before {
+	content: 'x';
+	font-weight: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 3em;
+	line-height: 0.6;
+	text-align: center;
+	text-indent: 0px;
+}
+
+.rb-fullsponsors {
+	width: 100%;
+	height: 100%;
+}
+
+.rb-fullsponsors > div {
+	width: 100%;
+	height: 60%;
+	float: left;
+	position: relative;
+	margin: 0;padding: 0;
+}
+
+.rb-fullsponsors > div:first-child {
+	width: 100%;
+	height: 40%;
+	padding-top: 10%;
+}
+
+.rb-fullsponsors span {
+	font-size: 2em;
+	font-weight: 100;
+	display: block;
+	margin: auto 0;
+	height: 100%;
+	width: 100%;
+	line-height: 0.8;
+	overflow: auto;
+}
+.rb-fullsponsors h2 {
+	color: #fff;
+}
+
+.rb-fullsponsors span.rb-pict {
+	font-weight: 700;
+	font-size: 1em;
+	line-height: 1.2;
+	text-align: center;
+}
+.rb-fullsponsors span.rb-pict img {
+	max-width: 80%;
+	max-height: 90%;
+	margin: auto;
+}
+
+.rb-fullsponsors span.description {
+	width: 80%;
+	margin: auto;
+}
+
+.rb-fullsponsors [class^="icon-"]:before {
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+.rb-fullsponsors > div:first-child [class^="icon-"] {
+	opacity: 0.1;
+}
+
+
+/* Colors */
+
+/* Grid */
+.rb-grid li:nth-child(1) { background: url('../images/sponsors/cps.jpg'); -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+.rb-grid li:nth-child(2) { background: url('../images/sponsors/walz.jpg'); -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+.rb-grid li:nth-child(3) { background: url('../images/sponsors/null.jpg'); -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+.rb-grid li:nth-child(4) { background: url('../images/sponsors/null.jpg'); -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+.rb-grid li:nth-child(5) { background: url('../images/sponsors/null.jpg'); -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+.rb-grid li:nth-child(6) { background: url('../images/sponsors/null.jpg'); -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+.rb-grid li:nth-child(7) { background: url('../images/sponsors/null.jpg'); -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+.rb-grid li:nth-child(8) { background: url('../images/sponsors/null.jpg'); -webkit-background-size: cover; background-size: cover; background-repeat: no-repeat; }
+
+/* Overlay Columns */
+.rb-grid li .rb-fullsponsors > div { background: #475455; }
+
+@media screen and (max-width: 1030px){
+
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	.rb-grid li{
+		width: 49%;
+		padding-top: 50%;
+	}
+
+	.rb-grid li.rb-span-2 {
+		width: 100%;
+		padding-top: 100%;
+	}
+	.rb-close {
+		top: 30px;
+		right: 30px;
+		width: 5em;
+		height: 5em;
+	}
+	.rb-close::before {
+	font-size: 6em;
+}
+}
+
+@media screen and (device-height: 568px){
+
+	.rb-overlay {
+		height: 1136px !important;
+	}.rb-fullsponsors {
+		height: 1136px !important;
+	}
+	.rb-fullsponsors > div {
+		height: 736px !important;
+	}
+	.rb-fullsponsors > div:first-child {
+		height: 400px !important;
+	}
+
+}

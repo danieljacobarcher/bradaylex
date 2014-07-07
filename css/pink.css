@@ -1,0 +1,124 @@
+nav, #menu_phone li, #contact_girls p, #contact_book p, #contact {
+	background-color: #f54088;
+}
+
+.title {
+	color: #f54088;
+}
+
+.sub_title, .thumb span {
+	color: #f54088;
+}
+
+.button_girls.active_girls, #effect_sponsors .current_effect_sponsors {
+	color: #fff;
+	background-color: #f54088;
+	border-color: #f54088;
+}
+
+.da-slider {
+	background-color: #ff91bd;
+}
+
+.button_products.active_product {
+	color: #fff;
+	background-color: #f54088;
+	border-color: #f54088;
+}
+
+#container_description_showcase, .og-expander, .superbox-show {
+	background-color: #333333;
+}
+h1, h2, h3 {
+	color: #333333;
+}
+
+.check_out_showcase a, .check_out_sponsors a, .og-details a {
+	background-color: #30393a;
+}
+
+.news_text a:link {
+	color: #f54088;
+}
+
+.read_more a:link{
+	color: #fff;
+}
+
+#tweet a:link {
+	color: #f54088;
+}
+
+.event_doc {
+	background-image: url('../images/pink/entertain.png');
+}
+.event_ps {
+	background-image: url('../images/pink/bra.png');
+}
+.event_video {
+	background-image: url('../images/pink/mic.png');
+}
+.event_picture {
+	background-image: url('../images/pink/auction.png');
+}
+.event_music {
+	background-image: url('../images/pink/appys.png');
+}
+
+.icon.blog_doc2 {
+	background-image: url('../images/pink/doc2.png');
+}
+.icon.blog_pictures2 {
+	background-image: url('../images/pink/photo2.png');
+}
+.icon.blog_movie2 {
+	background-image: url('../images/pink/movie2.png');
+}
+.icon.blog_audio {
+	background-image: url('../images/pink/music2.png');
+}
+
+#view_all_posts {
+	background-color: #f54088;
+}
+
+@media handheld and (max-width: 769px), screen and (max-width: 769px), screen and (max-device-width: 769px)  {
+
+#top {
+	background-color: #f54088;
+}
+
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+
+.event_doc {
+	background-image: url('../images/pink/entertain@2x.png');
+}
+.event_ps {
+	background-image: url('../images/pink/bra@2x.png');
+}
+.event_video {
+	background-image: url('../images/pink/mic@2x.png');
+}
+.event_picture {
+	background-image: url('../images/pink/auction@2x.png');
+}
+.event_music {
+	background-image: url('../images/pink/appys@2x.png');
+}
+
+.icon.blog_doc2 {
+	background-image: url('../images/pink/doc2@2x.png');
+}
+.icon.blog_pictures2 {
+	background-image: url('../images/pink/photo2@2x.png');
+}
+.icon.blog_movie2 {
+	background-image: url('../images/pink/movie2@2x.png');
+}
+.icon.blog_audio {
+	background-image: url('../images/pink/music2@2x.png');
+}
+
+}

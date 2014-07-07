@@ -1,0 +1,112 @@
+nav, #menu_phone li, #contact_team p, #contact_text p, #contact {
+	background-color: #f5924d;
+}
+
+.title {
+	color: #00cbe9;
+}
+
+.sub_title, .thumb span {
+	color: #f5924d;
+}
+
+.button_team.active_team, #effect_work .current_effect_work {
+	color: #fff;
+	background-color: #00cbe9;
+	border-color: #00cbe9;
+}
+
+.da-slider {
+	background-color: #00cbe9;
+}
+
+.button_products.active_product {
+	color: #fff;
+	background-color: #00cbe9;
+	border-color: #00cbe9;
+}
+
+#container_description_showcase, .og-expander, .superbox-show {
+	background-color: #42515a;
+}
+h1, h2, h3 {
+	color: #42515a;
+}
+
+.check_out_showcase a, .check_out_work a, .og-details a {
+	background-color: #10323d;
+}
+
+.services_doc {
+	background-image: url('../images/orange/doc.png');
+}
+.services_ps {
+	background-image: url('../images/orange/ps.png');
+}
+.services_video {
+	background-image: url('../images/orange/video.png');
+}
+.services_picture {
+	background-image: url('../images/orange/picture.png');
+}
+.services_music {
+	background-image: url('../images/orange/music.png');
+}
+
+.icon.blog_doc2 {
+	background-image: url('../images/orange/doc2.png');
+}
+.icon.blog_pictures2 {
+	background-image: url('../images/orange/pictures2.png');
+}
+.icon.blog_movie2 {
+	background-image: url('../images/orange/movie2.png');
+}
+.icon.blog_audio {
+	background-image: url('../images/orange/audio.png');
+}
+
+#view_all_posts {
+	background-color: #00cbe9;
+}
+
+@media handheld and (max-width: 769px), screen and (max-width: 769px), screen and (max-device-width: 769px)  {
+
+#top {
+	background-color: #f5924d;
+}
+
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+
+.services_doc {
+	background-image: url('../images/orange/doc@2x.png');
+}
+.services_ps {
+	background-image: url('../images/orange/ps@2x.png');
+}
+.services_video {
+	background-image: url('../images/orange/video@2x.png');
+}
+.services_picture {
+	background-image: url('../images/orange/picture@2x.png');
+}
+.services_music {
+	background-image: url('../images/orange/music@2x.png');
+}
+
+.icon.blog_doc2 {
+	background-image: url('../images/orange/doc2@2x.png');
+}
+.icon.blog_pictures2 {
+	background-image: url('../images/orange/pictures2@2x.png');
+}
+.icon.blog_movie2 {
+	background-image: url('../images/orange/movie2@2x.png');
+}
+.icon.blog_audio {
+	background-image: url('../images/orange/audio.png');
+}
+
+}

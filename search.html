@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+lang="en">
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<link rel="stylesheet" type="text/css" href="responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/retina.css">
+		<link class="color_switcher" rel="stylesheet" type="text/css" href="css/red.css"><!-- COLOR STYLE CSS -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+		<title>Breast Reconstruction Awareness Day Lexington, KY</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name = "viewport" content = "width=device-width, minimum-scale=0.5, maximum-scale=0.5, user-scalable=0">
+	</head>
+	<body>
+
+
+		<nav id="nav" class="floatable news"> <!-- NAVIGATION -->
+			<div id="menu">
+				<table>
+					<tr>
+						<td><a href="index.html"><div id="back_onepage"></div></a></td>
+						<td><a href="#news" id="menu_news" class="active">your<br><strong>SEARCH</strong></a></td>
+					</tr>
+				</table>
+			</div>
+
+		</nav> <!-- END NAVIGATION -->
+		<div id="top">
+
+				<div id="top_content">
+				
+					<div id="logo_news">
+						<a href="#">BRA DAY LEX</a> <!-- LOGO -->
+					</div>
+
+					<div id="current_menu_phone" class="news_menu_phone">your<br><strong>SEARCH</strong></div>
+				
+				</div>
+
+				<div id="menu_phone">
+					<a href="index.html"><img id="menu_phone_control" class="phone_back_onepage" src="images/arrow.png"></a>
+				</div>
+
+			</div>
+
+		<section id="container">
+
+			<section id="news" class="cat"> <!-- OUR BLOG -->
+
+				<div id="blog_content"> <!-- THE NEWS -->
+
+					<h2>RESULTS OF SEARCH</h2>
+
+				</div>
+
+				<div id="sidebar"> <!-- THE SIDEBAR -->
+					
+					<div id="search_bar">
+						<form action="search.html" method="post">
+							<input type="text" name="search" placeholder="To search type and hit enter">
+						</form>
+					</div>
+
+					<div class="ad_sidebar"></div>
+					<div class="ad_sidebar last"></div>
+					<div class="ad_sidebar"></div>
+					<div class="ad_sidebar last"></div>
+
+					<div class="cb"></div>
+
+					<div id="recent_posts">
+						<h4>RECENT POSTS</h4>
+
+						<a href='news.html?#news_4'><p>FLOWER by JEWEL</p><div class='img_recent_posts'></div></a><div class='cb'></div>
+						<a href='news.html?#news_3'><p>ON FACEBOOK.</p><div class='img_recent_posts'></div></a><div class='cb'></div>
+						<!-- <a href='news.html?#news_2'><p>STANDARD POST FOR A VIDEO.</p><div class='img_recent_posts'></div></a><div class='cb'></div> -->
+					</div>
+
+					<div id="archives">
+						<h4>ARCHIVES</h4>
+
+						<a href='archives.html'><p>September</p><div class='img_recent_posts'></div></a><div class='cb'></div>
+						<!-- <a href='archives.html'><p>November</p><div class='img_recent_posts'></div></a><div class='cb'></div> -->
+						</div>
+
+					<div id="twitter">
+						<h4>TWITTER</h4>
+
+						<div id="tweet">
+						  <p>Please wait while my tweets load</p>
+						  <p><a href="http://twitter.com/bradaylex">If you can't wait - check out what I've been twittering</a></p>
+						</div>
+					</div>
+
+				</div>
+				<div class="cb"></div>
+
+
+
+			</section> <!-- END OUR BLOG -->
+
+			
+		</section> <!-- END GENERAL CONTAINER -->
+
+		 <!-- JAVASCRIPT -->
+		<script type="text/javascript" src="js/modernizr-slide.js"></script>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/init.js"></script>
+		<script type="text/javascript" src="js/scroll_nav.js"></script>
+		<script type="text/javascript" src="js/footer.js"></script>
+		<script type="text/javascript" src="js/touch.js"></script>
+		<script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
+		<script>
+		/* <![CDATA[ */
+			/* SETTINGS VIEWPORT IPHONE AND IPAD */
+			$(document).ready(function(){
+				if (navigator.userAgent.match(/iPad/i)) {
+					var viewportmeta = document.querySelector('meta[name="viewport"]'); 
+					if (viewportmeta) {
+						viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0'; 
+						document.body.addEventListener('gesturestart', function() { 
+							viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0'; 
+						}, false); 
+					} 
+				}
+			});
+		/* ]]> */
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				// Set pixelRatio to 1 if the browser doesn't offer it up.
+				var pixelRatio = !!window.devicePixelRatio ? window.devicePixelRatio : 1;
+				 
+				// Rather than waiting for document ready, where the images
+				// have already loaded, we'll jump in as soon as possible.
+				$(window).on("load", function() {
+				    if (pixelRatio > 1) {
+				        $('img.retina').each(function() {
+				 
+				            // Very naive replacement that assumes no dots in file names.
+				            $(this).attr('src', $(this).attr('src').replace(".","@2x."));
+				        });
+				    }
+				});
+			});
+		</script>
+	</body>
+</html>
